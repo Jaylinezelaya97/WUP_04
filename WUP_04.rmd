@@ -72,8 +72,11 @@ model1 <- aov(WORDSUM~DEGREE,data=GSS)
 summary.aov(model1)
 ```
 
-Those with a degree on average score WORDSUM about 24, while on the other hand Residuals score approximately 4. P value is less than 0.005 therefore we reject null hypothesis
+Those with a degree on average score WORDSUM about 24, while on the other hand Residuals score approximately 4. P value is less than 0.005 therefore we reject null hypothesis.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The question was is there a difference between the average score on the WORDSUM test and level of schooling DEGREE. P value is less than 0.05 therefore we reject the null hypothesis.
+
