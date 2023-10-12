@@ -68,14 +68,14 @@ Those with a Bachelor's degree on average score 10 WORDSUM. Those with Graduate 
 
 ```{r}
 plot(TukeyHSD(model1))
+print(TukeyHSD(model1))
 ```
 
-
-
+The JC/Bachelor, JC/HighSchool, HighSchool/Graduate, less than HighSchool/Graduate, have a P value less than 0.05 and no difference. There is a difference between HighSchool/Graduate, and Less than Highschool to graduate because P value is greater than 0.05. Therefore we reject the null hypothesis. We fail to reject the alternative hypothesis partially.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
-
+Is there a difference between between the average score on the WORDSUM test and level of schooling DEGREE.  There is a difference between Highschool/Graduate and there is a difference LessThanHighSchoolGraduate/Graduate
 
